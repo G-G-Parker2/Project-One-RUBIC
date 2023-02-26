@@ -1,4 +1,4 @@
-@import "media-queries.css"
+@import "media-queries.css";
 
 
 
@@ -108,7 +108,7 @@ content {
 
     .card-img-top {
         background-position: center;
-        width: 2000px;
+        width: 200px;
         height: 120px;
         background-size: contain;
     }
@@ -127,7 +127,7 @@ content {
         padding: 20px;
         display: grid;
         grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: 50% 50%;
+        grid-template-rows: 30px 30px;
     }
 
     .instagram{
@@ -169,7 +169,7 @@ content {
     .blog-page-content {
         display: grid;
         grid-template-columns: 20% 80%;
-        grid-template-rows: auto 5% auto;
+        grid-template-rows: auto 30px auto;
     }
 
     .sidebar {

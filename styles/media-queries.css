@@ -1,11 +1,11 @@
 
-@media(max-width:800px){
+@media(min-width:800px){
     .content {
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: repeat(4, 1fr) 12% auto 20% ;
     background-color: red;
-    
+
     }
 
     .nav-bar{
