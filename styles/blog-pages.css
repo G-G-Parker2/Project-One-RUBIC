@@ -135,24 +135,6 @@ body {
         margin-right: auto;
     }
 
-    h4 {
-        color: #464646;
-        align-self: flex-start;
-        padding: 0px;
-    }
-
-    h5 {
-        color: #464646;
-        align-self: flex-start;
-        padding: 0px;
-    }
-
-    h2 {
-        padding: 0px;
-        color: #547625;
-        text-decoration: underline;
-        text-align: center;
-    }
 
     .home-button {
        grid-area: 2/1/2/2;
