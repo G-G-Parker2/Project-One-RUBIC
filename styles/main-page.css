@@ -2,13 +2,18 @@
 
 /* Grid Set-up for Main Page Content*/
 content {
+    height:100vh; 
     display: grid;
-    grid-template-columns: 20% 80%;
-    grid-template-rows: auto 12% auto 20% ;
-    margin-top:10%;
+     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 15vh 15vh 40vh 15vh;
+     grid-template-areas:
+        "nv head head"
+        "nv mn mn"
+        "nv mn mn"
+        "ft ft ft"
 }
     .nav-bar{
-        grid-area: 1/1/4/1;
+        grid-area: hd;
         padding: 2%;
         display: flex;
         flex-direction: column;
@@ -32,7 +37,7 @@ content {
             }
 
     .blog-header {
-        grid-area: 2/2/2/2;
+        grid-area: head;
         padding-bottom: 20px;
         align-items: center;
         margin-left: 5px;
@@ -46,7 +51,7 @@ content {
             }
     
     .main-section{
-        grid-area: 3/2/3/2;
+        grid-area: mn;
         width: 80%;
         gap: 20px;
         padding: 20px;
@@ -93,7 +98,7 @@ content {
 
 
     .footer{
-        grid-area: 4/2/4/3;
+        grid-area: ft;
         padding: 20px;
         display: grid;
         grid-template-columns: repeat(5, 1fr);
