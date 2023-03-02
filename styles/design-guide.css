@@ -7,24 +7,9 @@ body {
     font-family: 'PT Serif', serif;
 }
 
-/* header style*/
-.header {
-    display: flex;
-    height: auto;
-    width: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: none;
-    padding-bottom: 20px;
-}
-
 .blog-logo{
     height:200px;
     max-width: fit-content;
-}
-.tagline {
-    justify-self: self-end;
 }
 
     h1 {
