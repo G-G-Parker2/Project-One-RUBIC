@@ -46,7 +46,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         }
-    .footer {
+    .footer-blog {
             grid-area: ft;
             padding: 20px;
             display: grid;
