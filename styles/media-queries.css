@@ -4,7 +4,7 @@
     content {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: 30vh 10vh 15vh auto 15vh 5vh;
+        grid-template-rows: 30vh 10vh 18vh auto 15vh 5vh;
         grid-template-areas: 
             "bl nv nv nv nv"
             ". . . . ."
@@ -37,6 +37,10 @@
             flex-direction: column;
             justify-content: center;
             }
+
+        .tagline {
+            display: inline;
+        }
     .main-section {
         grid-area: main;
         width: 80%;
@@ -144,11 +148,14 @@
         position: relative;
     }
     .home-button {
-        grid-area: hb;
-        width: 50px;
-        height: 50px;
-        margin-left: 45%;
-        margin-top: 20px;
+       grid-area: hb;
+       background-image: url("../images/home-icon.png");
+       background-position: center;
+       background-size: contain;
+       width: 50px;
+       height: 50px;
+       margin-left: 45%;
+       margin-top: 20px;
      }
      .footer-blog{
         grid-area: ft;
