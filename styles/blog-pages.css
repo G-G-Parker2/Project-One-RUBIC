@@ -1,9 +1,9 @@
 
-@import "./media-queries.css";
+
 /* content-blog page */
 
 .blog-content {
-    width: 100vh;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 25vh 40vh auto auto auto 10vh 25vh ;
